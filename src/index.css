@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+    --fern-green: #556f44ff;
+    --cream: #edeec0ff;
+    --dark-slate-gray: #283f3bff;
+    --tangerine: #f18805ff;
+    --powder-blue: #8da9c4ff;
+
+}
