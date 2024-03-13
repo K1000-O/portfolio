@@ -1,9 +1,9 @@
 <template>
 	<div class="flex xl:flex-row flex-col items-center">
-		<img class="w-52 sm:w-60 lg:w-72 lg:ml-14" src="/foto-perfil.svg" alt="logo">
+		<img class="w-52 sm:w-60 lg:w-72 xl:ml-14" src="/foto-perfil.svg" alt="logo">
 
 		<div class="flex flex-col justify-center items-center w-full xl:p-0 p-8">
-			<div class="logo flex justify-center items-center w-full mb-1 gap-1 sm:gap-4">
+			<div class="logo flex justify-center items-center w-full mb-1 gap-1 sm:gap-4 pb-4">
 				<p class="text-3xl sm:text-5xl font-bold font-noto-serif text-[#C2DE21]"> &ltC> </p>
 				<h1 class="text-3xl sm:text-5xl font-bold font-poppins text-[--light-cyan]"> camiDEV</h1>
 				<p class="text-3xl sm:text-5xl font-bold font-noto-serif text-[#C2DE21]"> &lt/C></p>

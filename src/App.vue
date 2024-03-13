@@ -6,7 +6,7 @@
 <template>
   <Header></Header>
 
-  <div class="sm:pt-16 lg:ml-14">
+  <div class="sm:pt-16 lg:mx-14">
     <AboutMe></AboutMe>
   </div>
 
