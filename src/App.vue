@@ -1,18 +1,16 @@
 <script setup>
-    import Header from './components/Header.vue'
-    import Card from './components/Card.vue'
+  import Header from './components/Header.vue'
+  import AboutMe from './components/AboutMe.vue'
 </script>
 
 <template>
-    <Header class="bg-[--cream]"></Header>
+  <Header></Header>
 
-    <div class="flex flex-col justify-center items-center min-w-fit gap-28 mt-28">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        
-    </div>
+  <div class="sm:pt-16 lg:ml-14">
+    <AboutMe></AboutMe>
+  </div>
+
 </template>
 
 <style scoped>
-</style>
+</style>./components/AboutMe.vue

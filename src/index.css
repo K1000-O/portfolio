@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Importar las fuentes */
+
 :root {
 
-    --fern-green: #556f44ff;
-    --cream: #edeec0ff;
-    --dark-slate-gray: #283f3bff;
-    --tangerine: #f18805ff;
-    --powder-blue: #8da9c4ff;
+  
+  --indigo-dye: #05445eff;
+  --moonstone: #46aec3ff;
+  --tiffany-blue: #91ebe1ff;
+  --light-cyan: #ddf4f6ff;
 
 }
