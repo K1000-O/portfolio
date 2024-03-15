@@ -9,6 +9,4 @@ import '../node_modules/@fontsource/poppins';
 
 import './index.css'
 
-
-
 createApp(App).mount('#app')

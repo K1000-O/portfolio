@@ -15,4 +15,4 @@
 </template>
 
 <style scoped>
-</style>./components/AboutMe.vue
+</style>
