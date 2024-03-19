@@ -34,7 +34,7 @@
           <img class="w-14 sm:w-20 lg:w-28" src="/css.svg" alt="">
           <img class="w-14 sm:w-20 lg:w-28" src="/javascript.svg" alt="">
           <img class="w-14 sm:w-20 lg:w-28" src="/java.svg" alt="">
-          <img class="w-14 sm:w-20 lg:w-28" src="/C.svg" alt="">
+          <img class="w-14 sm:w-20 lg:w-28" src="/c.svg" alt="">
         </figure>
       </article>
 
