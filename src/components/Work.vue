@@ -4,7 +4,7 @@
       <img class="w-8 sm:w-10 lg:w-12" src="/computer-icon.svg" alt="logo">
       <h1 class="text-3xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase">Experiencia ( ) {</h1>
     </header>
-    <article class="pt-5 sm:pt-10 flex flex-col items-center xl:flex-row justify-end gap-2">
+    <article class="pt-5 sm:pt-10 flex flex-col xl:flex-row justify-end gap-2">
       <ol class="relative border-s-2 sm:border-s-0 sm:border-e-4 border-gray-900 dark:border-[--light-cyan]">
           <li class="mb-10 ms-6">
               <div class="absolute mt-3 md:mt-6 ml-[-31px] md:ml-0 md:mr-[-10px] md:right-0 w-3 h-3 md:w-4 md:h-4 bg-[#C2DE21] rounded-full border-2 border-[--light-cyan] dark:border-[--indigo-dye]"></div>
