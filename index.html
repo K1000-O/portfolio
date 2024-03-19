@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
@@ -18,18 +18,20 @@
             justify-content: center;
             align-items: center;
             background-color: #ddf4f6ff;
-            color: white;
+            color: #05445eff;
 
             @media (prefers-color-scheme: dark) {
+              color: white;
               background-color: #05445eff;
             }
         }
     </style>
   </head>
-  <body class="bg-[--light-cyan] dark:bg-[--indigo-dye] p-10 sm:p-10 xl:px-80">
-    <div id="app"></div>
+  <body >
+    <div class="bg-[--light-cyan] dark:bg-[--indigo-dye] p-10 sm:p-10 xl:px-80" id="app"></div>
     <script type="module" src="/src/main.js"></script>
 
     <section id="loader">CARGANDO...</section>
+    <footer id="footer"></footer>
   </body>
 </html>

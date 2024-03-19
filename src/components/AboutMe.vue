@@ -2,8 +2,9 @@
 	<section class="card">
 		<header class="flex items-center gap-2">
 			<img class="w-8 sm:w-10 lg:w-12" src="/sobreMi-icon.svg" alt="logo">
-			<h1 class="text-4xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase">Sobre mi ( ) {</h1>
+			<h1 class="text-4xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase border-b-2 border-[--indigo-dye] dark:border-gray-400 pb-2">Sobre mi ( ) {</h1>
 		</header>
+
 		<article class="pt-5 xl:pt-10 flex flex-col items-center 2xl:flex-row justify-center gap-2">
 			<div class="texto order-2 2xl:order-1">
 				<p class="text-sm lg:text-base font-semibold font-poppins text-gray-500 dark:text-white uppercase">¡Hola! Me llamo <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> Camilo Jené </span> y soy ingeniero informático. Desde siempre
@@ -17,7 +18,7 @@
 				Desde 2018, me dedico además a uno de mis grandes hoobies: entrenar en diferentes categorias del fútbol base.</p>
 			</div>
 
-			<img class="w-52 md:w-60 lg:w-72 2xl:ml-14 order-1" src="/foto-perfil.svg" alt="logo">
+			<img class="w-52 md:w-60 lg:w-72 2xl:ml-14 order-1" src="/foto-perfil.svg" alt="logo-perfil">
 
 		</article>
 	</section>

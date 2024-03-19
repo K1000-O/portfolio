@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import Footer from './components/Footer.vue';
 
 // Supports weights 100-800
 import '../node_modules/@fontsource-variable/jetbrains-mono';
@@ -16,3 +17,4 @@ window.addEventListener('load', () => {
 });
 
 createApp(App).mount('#app')
+createApp(Footer).mount('#footer')

@@ -2,10 +2,11 @@
   <section class="card flex flex-col">
     <header class="flex items-center gap-2">
       <img class="w-10 sm:w-12 lg:w-14" src="/tecnologias-logo.svg" alt="logo">
-      <h1 class="text-3xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase">Tecnologías ( ) {</h1>
+      <h1 class="text-3xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase border-b-2 border-[--indigo-dye] dark:border-gray-400 pb-2">Tecnologías ( ) {</h1>
     </header>
+
     <section class="flex flex-col sm:flex-row justify-evenly items-center gap-10 flex-wrap">
-      <article class="pt-5 sm:pt-10 flex flex-col items-center">
+      <article class="flex flex-col items-center sm:p-10 p-5">
         <header>
           <h1 class="text-3xl sm:text-5xl font-semibold font-poppins uppercase dark:text-white text-[--indigo-dye]">Diseño</h1>
         </header>
@@ -15,7 +16,7 @@
         </figure>
       </article>
 
-      <article class="pt-5 sm:pt-10 flex flex-col items-center">
+      <article class="flex flex-col items-center sm:p-10 p-5">
         <header>
           <h1 class="text-3xl sm:text-5xl font-semibold font-poppins uppercase dark:text-white text-[--indigo-dye]">Desarrollo</h1>
         </header>
@@ -25,7 +26,7 @@
         </figure>
       </article>
 
-      <article class="pt-5 sm:pt-10 flex flex-col items-center">
+      <article class="flex flex-col items-center sm:p-10 p-5">
         <header>
           <h1 class="text-3xl sm:text-5xl font-semibold font-poppins uppercase dark:text-white text-[--indigo-dye]">Lenguajes</h1>
         </header>
@@ -38,7 +39,7 @@
         </figure>
       </article>
 
-      <article class="pt-5 sm:pt-10 flex flex-col items-center">
+      <article class="flex flex-col items-center sm:p-10 p-5">
         <header>
           <h1 class="text-3xl sm:text-5xl font-semibold font-poppins uppercase dark:text-white text-[--indigo-dye]">Frameworks</h1>
         </header>

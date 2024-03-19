@@ -13,7 +13,6 @@
     <Work></Work>
     <Tecnologias></Tecnologias>
   </main>
-
 </template>
 
 <style scoped>
