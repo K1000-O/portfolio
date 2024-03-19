@@ -13,6 +13,7 @@
         <figure class="flex justify-evenly pt-5 gap-10">
           <img class="w-14 sm:w-20 lg:w-28" src="/figma.svg" alt="">
           <img class="w-14 sm:w-20 lg:w-28" src="/miro.svg" alt="">
+          <img class="w-14 sm:w-20 lg:w-28" src="/umlet_logo.svg" alt="">
         </figure>
       </article>
 
