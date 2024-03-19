@@ -5,7 +5,7 @@
 </script>
 
 <template>
-	<div class="flex xl:flex-row flex-col items-center">
+	<header class="flex xl:flex-row flex-col items-center">
 		<img class="w-52 sm:w-60 lg:w-72 xl:ml-14" src="/foto-perfil.svg" alt="logo">
 
 		<div class="flex flex-col justify-center items-center w-full xl:p-0 p-8">
@@ -24,7 +24,7 @@
 				<a href="https://twitter.com/KamiJeC_05"><LogoTwitter class="m-3 w-10 md:w-12 lg:w-14 hover:scale-110 transition-transform hover:drop-shadow-[0_0_2px_gray]"></LogoTwitter></a>
 			</div>
 		</div>
-	</div>
+	</header>
 </template>
 
 <script>

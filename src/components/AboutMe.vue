@@ -1,10 +1,10 @@
 <template>
-	<div class="card">
-		<div class="title flex items-center gap-2">
+	<section class="card">
+		<header class="flex items-center gap-2">
 			<img class="w-8 sm:w-10 lg:w-12" src="/sobreMi-icon.svg" alt="logo">
 			<h1 class="text-4xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase">Sobre mi ( ) {</h1>
-		</div>
-		<div class="body pt-5 xl:pt-10 flex flex-col items-center xl:flex-row justify-center gap-2">
+		</header>
+		<article class="pt-5 xl:pt-10 flex flex-col items-center xl:flex-row justify-center gap-2">
 			<div class="texto order-2 xl:order-1">
 				<p class="text-sm lg:text-base font-semibold font-poppins text-gray-500 dark:text-white uppercase">¡Hola! Me llamo <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> Camilo Jené </span> y soy ingeniero informático. Desde siempre
 				me han gustado los ordenadores debido a la complejidad de ellos y lo que nos aportan en la vida.</p>
@@ -19,6 +19,6 @@
 
 			<img class="w-52 md:w-60 lg:w-72 xl:ml-14 order-1" src="/foto-perfil.svg" alt="logo">
 
-		</div>
-	</div>
+		</article>
+	</section>
 </template>

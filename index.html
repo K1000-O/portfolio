@@ -5,9 +5,31 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
+    
+    <style>
+        #loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ddf4f6ff;
+            color: white;
+
+            @media (prefers-color-scheme: dark) {
+              background-color: #05445eff;
+            }
+        }
+    </style>
   </head>
   <body class="bg-[--light-cyan] dark:bg-[--indigo-dye] p-10 sm:p-10 xl:px-80">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <section id="loader">CARGANDO...</section>
   </body>
 </html>

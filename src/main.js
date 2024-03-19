@@ -9,4 +9,10 @@ import '../node_modules/@fontsource/poppins';
 
 import './index.css'
 
+window.addEventListener('load', () => {
+  // Ocultar el loader cuando la página se haya cargado completamente
+  const loader = document.getElementById('loader');
+  loader.style.display = 'none';
+});
+
 createApp(App).mount('#app')
