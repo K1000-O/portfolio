@@ -6,7 +6,7 @@
 
 <template>
 	<header class="flex 2xl:flex-row flex-col items-center">
-		<img class="w-52 sm:w-60 lg:w-72 2xl:ml-14" src="/foto-perfil.svg" alt="logo">
+		<!-- <img class="w-52 sm:w-60 lg:w-72 2xl:ml-14" src="/foto-perfil.svg" alt="logo"> -->
 
 		<section class="flex flex-col justify-center items-center w-full 2xl:p-0 p-8">
 			<article class="logo flex justify-center items-center w-full mb-1 gap-1 sm:gap-4 pb-4">
