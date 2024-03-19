@@ -20,7 +20,7 @@
 			</article>
 			<article class="social flex justify-center gap-5 items-center lg:w-full">
 				<a href="https://www.linkedin.com/in/camilo-jene-conde/" target="_blank"><LogoLinkedin class="m-3 w-10 md:w-12 lg:w-14 hover:scale-110 transition-transform hover:drop-shadow-[0_0_2px_gray]"></LogoLinkedin></a>
-				<a href=""><LogoInstagram class="m-3 w-10 md:w-12 lg:w-14 hover:scale-110 transition-transform hover:drop-shadow-[0_0_2px_gray]"></LogoInstagram></a>
+				<a href="https://www.instagram.com/kamijec_99/"><LogoInstagram class="m-3 w-10 md:w-12 lg:w-14 hover:scale-110 transition-transform hover:drop-shadow-[0_0_2px_gray]"></LogoInstagram></a>
 				<a href="https://twitter.com/KamiJeC_05"><LogoTwitter class="m-3 w-10 md:w-12 lg:w-14 hover:scale-110 transition-transform hover:drop-shadow-[0_0_2px_gray]"></LogoTwitter></a>
 			</article>
 		</section>
