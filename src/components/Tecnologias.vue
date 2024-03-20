@@ -23,7 +23,8 @@
         </header>
         <figure class="flex justify-evenly pt-5 gap-10">
           <img class="w-14 sm:w-20 lg:w-28" src="/vscode.svg" alt="">
-          <img class="w-14 sm:w-20 lg:w-28" src="/github.svg" alt="">
+          <img class="w-14 sm:w-20 lg:w-28" src="/git.svg" alt="">
+          <img class="w-14 sm:w-20 lg:w-28" src="/jira.svg" alt="">
         </figure>
       </article>
 
@@ -37,6 +38,17 @@
           <img class="w-14 sm:w-20 lg:w-28" src="/javascript.svg" alt="">
           <img class="w-14 sm:w-20 lg:w-28" src="/java.svg" alt="">
           <img class="w-14 sm:w-20 lg:w-28" src="/c.svg" alt="">
+          <img class="w-14 sm:w-20 lg:w-28" src="/python.svg" alt="">
+        </figure>
+      </article>
+
+      <article class="flex flex-col items-center sm:p-10 p-5">
+        <header>
+          <h1 class="text-3xl sm:text-5xl font-semibold font-poppins uppercase dark:text-white text-[--indigo-dye]">Bases de datos</h1>
+        </header>
+        <figure class="flex justify-evenly pt-5 gap-10 flex-wrap">
+          <img class="w-14 sm:w-20 lg:w-28" src="/my-sql.svg" alt="">
+          <img class="w-14 sm:w-20 lg:w-28" src="/postgresql.svg" alt="">
         </figure>
       </article>
 
