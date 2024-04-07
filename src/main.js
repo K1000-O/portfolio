@@ -3,6 +3,7 @@ import App from '@/App.vue'
 import HeaderNav from '@/components/HeaderNav.vue';
 import Footer from '@/components/Footer.vue';
 import router from '@/router';
+import { inject } from '@vercel/analytics';
 
 // Supports weights 100-800
 import '../node_modules/@fontsource-variable/jetbrains-mono';
@@ -11,6 +12,9 @@ import '../node_modules/@fontsource/biryani';
 import '../node_modules/@fontsource/poppins';
 
 import './index.css'
+
+// Inject vercel analytics
+inject();
 
 const app = createApp(App)
 const headerNav = createApp(HeaderNav)

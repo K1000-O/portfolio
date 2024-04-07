@@ -11,6 +11,7 @@
     "@fontsource-variable/noto-serif-display": "^5.0.20",
     "@fontsource/biryani": "^5.0.12",
     "@fontsource/poppins": "^5.0.12",
+    "@vercel/analytics": "^1.2.2",
     "vue": "^3.2.38",
     "vue-router": "^4.3.0"
   },
