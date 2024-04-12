@@ -4,6 +4,7 @@ import HeaderNav from '@/components/HeaderNav.vue';
 import Footer from '@/components/Footer.vue';
 import router from '@/router';
 import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 // Supports weights 100-800
 import '../node_modules/@fontsource-variable/jetbrains-mono';
@@ -15,6 +16,7 @@ import './index.css'
 
 // Inject vercel analytics
 inject();
+injectSpeedInsights();
 
 const app = createApp(App)
 const headerNav = createApp(HeaderNav)
