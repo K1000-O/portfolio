@@ -1,6 +1,6 @@
 <template>
   <section v-if="true !== false" class="h-[calc(100vh-96px)] flex justify-center items-center">
-    <form action="https://formsubmit.co/camilo.jene@camidev.es" method="post" class="flex justify-center flex-col gap-5 bg-white shadow-md rounded p-8 max-w-xl w-full mx-3">
+    <form action="https://formsubmit.co/d0ceb6cc9db30ec93e21dda39e049361" method="post" class="flex justify-center flex-col gap-5 bg-white shadow-md rounded p-8 max-w-xl w-full mx-3">
       <label for="name" class="block text-gray-700 text-sm font-bold">Nombre</label>
       <input type="name" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Nombre">
 
