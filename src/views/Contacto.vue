@@ -11,6 +11,10 @@
       <textarea id="mensaje" name="message" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" rows="10" placeholder="Mensaje"></textarea>
 
       <input type="submit" class="bg-[--indigo-dye] hover:bg-[--light-cyan] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline hover:cursor-pointer" value="Enviar">
+
+      <input type="hidden" name="_next" value="https://camidev.es/">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
       
     </form>
 
