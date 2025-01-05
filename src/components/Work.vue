@@ -16,7 +16,7 @@
             </li>
 
         <h3 class="flex md:justify-end items-center mb-3 text-3xl font-semibold font-jetbrains text-[#0f5674] dark:text-[--tiffany-blue] uppercase"> <img src="/RVB_INETUM.svg" class="w-32 sm:w-40 lg:w-52 dark:hidden"></img> <img src="/R_INETUM.svg" class="w-32 sm:w-40 lg:w-52 hidden dark:block"></img>
-          <span class="text-blue-800 text-xs me-4 dark:text-blue-300 ms-3">jul 2022 - dic 2024</span>
+          <span class="text-blue-800 text-xs me-4 dark:text-blue-300 ms-3">jul 2023 - dic 2024</span>
         </h3>
 
           <li class="mb-10 ms-6">
