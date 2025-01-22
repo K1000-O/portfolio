@@ -18,7 +18,7 @@
 				Desde 2018, me dedico además a uno de mis grandes hoobies: entrenar en diferentes categorias del fútbol base.</p>
 			</div>
 
-			<img class="w-52 md:w-60 lg:w-72 2xl:ml-14 order-1" src="/foto-perfil.svg" alt="logo-perfil" fetchpriority="high">
+			<!-- <img class="w-52 md:w-60 lg:w-72 2xl:ml-14 order-1" src="/foto-perfil.svg" alt="logo-perfil"> -->
 
 		</article>
 	</section>
