@@ -14,8 +14,8 @@
 				ver como lo que tenía en mi cabeza poco a poco va cogiendo vida.</p>
 
 				<br>
-				<p class="text-sm lg:text-base font-semibold font-poppins text-gray-500 dark:text-white uppercase">Me considero una persona <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> responsable </span>, con una <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> gran motivación </span> y un <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> gran espíritu de superación </span>.
-				Desde 2018, me dedico además a uno de mis grandes hoobies: entrenar en diferentes categorias del fútbol base.</p>
+				<p class="text-sm lg:text-base font-semibold font-poppins text-gray-500 dark:text-white uppercase">Me considero una persona <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> responsable </span>, con una <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> gran motivación </span> y un <span class="text-[#47b93dcc] dark:text-[--tiffany-blue] "> gran espíritu de superación</span>.
+				Desde 2018, me dedico además a uno de mis grandes pasiones: entrenar en diferentes categorias del fútbol base, pasando por benjamines, infantiles, cadetes y juveniles.</p>
 			</div>
 
 			<!-- <img class="w-52 md:w-60 lg:w-72 2xl:ml-14 order-1" src="/foto-perfil.svg" alt="logo-perfil"> -->
