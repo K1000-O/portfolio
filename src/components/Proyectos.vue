@@ -30,7 +30,7 @@
         <a href="https://chamartinathletic.es" target="_blank" class="font-poppins font-semibold text-[--indigo-dye] dark:text-[--moonstone] hover:underline mt-auto">Ver sitio →</a>
       </div>
 
-      <div class="flex flex-col gap-6">
+      <!-- <div class="flex flex-col gap-6">
         <div class="rounded-xl border border-[--border-light] dark:border-[--border-dark] p-5 flex flex-col gap-2">
           <span class="text-xs font-poppins font-medium px-2.5 py-1 rounded bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 w-fit">Raspberry Pi</span>
           <h2 class="text-xl font-semibold font-poppins text-[#0f5674] dark:text-[--tiffany-blue]">Servidor de Minecraft</h2>
@@ -48,7 +48,7 @@
           <h2 class="text-xl font-semibold font-poppins text-[#0f5674] dark:text-[--tiffany-blue]">Servidor Nextcloud</h2>
           <p class="text-sm lg:text-base font-poppins text-gray-500 dark:text-white">Almacenamiento en la nube personal autohospedado con Nextcloud.</p>
         </div>
-      </div>
+      </div> -->
     </article>
   </section>
 </template>

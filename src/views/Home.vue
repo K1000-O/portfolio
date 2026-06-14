@@ -3,7 +3,9 @@
   import AboutMe from '@/components/AboutMe.vue'
   import Work from '@/components/Work.vue';
   import Proyectos from '@/components/Proyectos.vue';
+  import Servicios from '@/components/Servicios.vue';
   import Tecnologias from '@/components/Tecnologias.vue';
+  import Skills from '@/components/Skills.vue';
 </script>
 
 <template>
@@ -14,7 +16,9 @@
       <AboutMe></AboutMe>
       <Work></Work>
       <Proyectos></Proyectos>
+      <Servicios></Servicios>
       <Tecnologias></Tecnologias>
+      <Skills></Skills>
     </main>
   </div>
 
