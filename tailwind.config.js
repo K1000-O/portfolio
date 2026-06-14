@@ -5,8 +5,6 @@ module.exports = {
     extend: {
       fontFamily: {
         'noto-serif': ['Noto Serif Display Variable', 'serif'],
-        'jetbrains': ['JetBrains Mono Variable', 'monospace'],
-        'biryani': ['Biryani', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
       }
     },

@@ -13,8 +13,8 @@
 				<p class="text-3xl sm:text-5xl font-bold font-noto-serif text-[#C2DE21]"> &lt/C></p>
 			</article>
 			<article class="logo-text flex flex-col justify-center items-center w-full">
-				<p class="md:text-xl lg:text-3xl font-biryani uppercase text-[--indigo-dye] dark:text-[--moonstone]"> de la imaginación al código </p>
-				<p class="md:text-xl lg:text-3xl font-biryani uppercase text-[--indigo-dye] dark:text-[--moonstone]"> desarrollando el futuro </p>
+				<p class="md:text-xl lg:text-3xl font-poppins uppercase text-[--indigo-dye] dark:text-[--moonstone]"> de la imaginación al código </p>
+				<p class="md:text-xl lg:text-3xl font-poppins uppercase text-[--indigo-dye] dark:text-[--moonstone]"> desarrollando el futuro </p>
 			</article>
 			<article class="social flex justify-center gap-5 items-center lg:w-full">
 				<a href="https://www.linkedin.com/in/camilo-jene-conde/" target="_blank" aria-label="linkedin"><LogoLinkedin class="m-3 w-10 md:w-12 lg:w-14 hover:scale-110 transition-transform hover:drop-shadow-[0_0_2px_gray]"></LogoLinkedin></a>

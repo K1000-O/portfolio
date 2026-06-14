@@ -7,9 +7,7 @@ import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
 
 // Supports weights 100-800
-import '../node_modules/@fontsource-variable/jetbrains-mono';
 import '../node_modules/@fontsource-variable/noto-serif-display';
-import '../node_modules/@fontsource/biryani';
 import '../node_modules/@fontsource/poppins';
 
 import './index.css'

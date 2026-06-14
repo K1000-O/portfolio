@@ -2,14 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Importar las fuentes */
-
 :root {
-
-  
   --indigo-dye: #05445eff;
   --moonstone: #46aec3ff;
   --tiffany-blue: #91ebe1ff;
   --light-cyan: #ddf4f6ff;
 
+  --surface-light: #ffffff;
+  --surface-dark: #0a2a3a;
+  --border-light: #e2e8f0;
+  --border-dark: #14384a;
+}
+
+@layer components {
+  .card {
+    @apply bg-[--surface-light] dark:bg-[--surface-dark]
+           rounded-2xl shadow-sm dark:shadow-none
+           border border-[--border-light] dark:border-[--border-dark]
+           p-6 sm:p-8 transition-colors;
+  }
 }
