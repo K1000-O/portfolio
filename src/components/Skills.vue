@@ -1,13 +1,13 @@
 <template>
-  <section class="card">
+  <section id="skills" class="card">
     <header class="flex items-center gap-2">
-      <img class="w-8 sm:w-10 lg:w-12" src="/skills-icon.svg" alt="logo">
-      <h1 class="text-3xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase border-b-2 border-[--indigo-dye] dark:border-gray-400 pb-2">Skills ( ) {</h1>
+      <img class="w-8 sm:w-10 lg:w-12" src="/skills-icon.svg" alt="" aria-hidden="true">
+      <h2 class="card-title">Skills ( ) {</h2>
     </header>
 
     <article class="pt-5 sm:pt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
       <div class="flex flex-col gap-4">
-        <h2 class="text-xl sm:text-2xl font-semibold font-poppins uppercase text-[#0f5674] dark:text-[--tiffany-blue]">Soft skills</h2>
+        <h3 class="text-xl sm:text-2xl font-semibold font-poppins uppercase text-[#0f5674] dark:text-[--tiffany-blue]">Soft skills</h3>
         <div class="flex flex-wrap gap-3">
           <span class="font-poppins font-medium px-4 py-2 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300">Liderazgo y coordinación</span>
           <span class="font-poppins font-medium px-4 py-2 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300">Resolución de problemas</span>
@@ -17,7 +17,7 @@
       </div>
 
       <div class="flex flex-col gap-4">
-        <h2 class="text-xl sm:text-2xl font-semibold font-poppins uppercase text-[#0f5674] dark:text-[--tiffany-blue]">Idiomas</h2>
+        <h3 class="text-xl sm:text-2xl font-semibold font-poppins uppercase text-[#0f5674] dark:text-[--tiffany-blue]">Idiomas</h3>
 
         <div class="flex flex-col gap-2">
           <div class="flex justify-between items-baseline">

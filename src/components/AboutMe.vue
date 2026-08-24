@@ -1,8 +1,8 @@
 <template>
-	<section class="card">
+	<section id="sobre-mi" class="card">
 		<header class="flex items-center gap-2">
-			<img class="w-8 sm:w-10 lg:w-12" src="/sobreMi-icon.svg" alt="logo">
-			<h1 class="text-4xl sm:text-5xl font-semibold font-noto-serif text-[--indigo-dye] dark:text-white uppercase border-b-2 border-[--indigo-dye] dark:border-gray-400 pb-2">Sobre mi ( ) {</h1>
+			<img class="w-8 sm:w-10 lg:w-12" src="/sobreMi-icon.svg" alt="" aria-hidden="true">
+			<h2 class="card-title">Sobre mi ( ) {</h2>
 		</header>
 
 		<article class="pt-5 xl:pt-10 flex flex-col items-center 2xl:flex-row justify-center gap-2">

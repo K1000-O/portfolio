@@ -3,6 +3,7 @@ import App from '@/App.vue'
 import HeaderNav from '@/components/HeaderNav.vue';
 import Footer from '@/components/Footer.vue';
 import router from '@/router';
+import reveal from '@/directives/reveal';
 import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
 
@@ -19,6 +20,8 @@ injectSpeedInsights();
 const app = createApp(App)
 const headerNav = createApp(HeaderNav)
 const footer = createApp(Footer)
+
+app.directive('reveal', reveal)
 
 app.use(router)
 headerNav.use(router)

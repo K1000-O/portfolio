@@ -9,16 +9,16 @@
 </script>
 
 <template>
-  <div class=" pt-0 p-10 sm:p-10 xl:px-80">
+  <div class="w-full max-w-6xl mx-auto pt-0 px-5 pb-10 sm:px-8 lg:px-12">
     <Header></Header>
 
-    <main class="sm:pt-16 lg:mx-14 flex flex-col gap-24 lg:gap-32">
-      <AboutMe></AboutMe>
-      <Work></Work>
-      <Proyectos></Proyectos>
-      <Servicios></Servicios>
-      <Tecnologias></Tecnologias>
-      <Skills></Skills>
+    <main id="contenido" class="sm:pt-16 flex flex-col gap-20 lg:gap-28">
+      <AboutMe v-reveal></AboutMe>
+      <Work v-reveal></Work>
+      <Proyectos v-reveal></Proyectos>
+      <Servicios v-reveal></Servicios>
+      <Tecnologias v-reveal></Tecnologias>
+      <Skills v-reveal></Skills>
     </main>
   </div>
 

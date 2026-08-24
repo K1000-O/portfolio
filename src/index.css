@@ -7,11 +7,55 @@
   --moonstone: #46aec3ff;
   --tiffany-blue: #91ebe1ff;
   --light-cyan: #ddf4f6ff;
+  --lime: #c2de21;
+
+  --altura-header: 3.5rem;             /* h-14 de la barra superior */
+  --hueco-header: calc(var(--altura-header) + 2.5rem);
 
   --surface-light: #ffffff;
   --surface-dark: #0a2a3a;
   --border-light: #e2e8f0;
   --border-dark: #14384a;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  /* La barra superior es sticky: sin este hueco, cualquier desplazamiento que
+     haga el navegador (anclas, Ctrl+F, tabulación, scrollIntoView) deja el
+     título de la sección debajo de ella. */
+  scroll-padding-top: var(--hueco-header);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--light-cyan);
+}
+
+.dark body {
+  background-color: var(--indigo-dye);
+}
+
+/* Enlace de salto visible solo al tabular */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10000;
+  padding: 0.75rem 1.25rem;
+  background: var(--indigo-dye);
+  color: var(--light-cyan);
+  font-family: Poppins, sans-serif;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.skip-link:focus {
+  left: 0;
 }
 
 @layer components {
@@ -20,5 +64,44 @@
            rounded-2xl shadow-sm dark:shadow-none
            border border-[--border-light] dark:border-[--border-dark]
            p-6 sm:p-8 transition-colors;
+  }
+
+  /* Encabezado de sección: "Proyectos ( ) {" */
+  .card-title {
+    @apply text-3xl sm:text-5xl font-semibold font-noto-serif
+           text-[--indigo-dye] dark:text-white uppercase
+           border-b-2 border-[--indigo-dye] dark:border-gray-400 pb-2;
+  }
+
+  .tag {
+    @apply text-xs font-poppins font-medium px-2.5 py-1 rounded
+           bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300;
+  }
+
+  .nav-link {
+    @apply font-poppins font-medium uppercase text-sm tracking-wide
+           text-[--light-cyan] hover:text-[--lime] transition-colors;
+  }
+}
+
+/* Animación de entrada al hacer scroll (directiva v-reveal) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
