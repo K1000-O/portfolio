@@ -1,4 +1,4 @@
-# Portfolio — camiDEV
+# Portfolio - camiDEV
 
 Portfolio personal de **Camilo Jené** (camiDEV), publicado en
 **[camidev.es](https://camidev.es)**. Construido con **Vue 3**, **Vite** y

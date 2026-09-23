@@ -3,7 +3,7 @@ import Home from '@/views/Home.vue';
 import Contacto from '@/views/Contacto.vue';
 
 const routes = [
-  { path: '/', name: 'home', component: Home, meta: { title: 'Camilo Jené — Desarrollador de software full-stack | camiDEV' } },
+  { path: '/', name: 'home', component: Home, meta: { title: 'Camilo Jené - Desarrollador de software full-stack | camiDEV' } },
   { path: '/contacto', name: 'contacto', component: Contacto, meta: { title: 'Contacto | camiDEV' } }
 ];
 

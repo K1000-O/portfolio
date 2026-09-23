@@ -21,10 +21,11 @@
         <header>
           <h3 class="text-2xl sm:text-4xl font-semibold font-poppins uppercase dark:text-white text-[--indigo-dye]">Desarrollo</h3>
         </header>
-        <figure class="flex justify-evenly pt-5 gap-10">
+        <figure class="flex justify-evenly pt-5 gap-10 flex-wrap">
           <img class="w-14 sm:w-20 lg:w-28" src="/vscode.svg" alt="Visual Studio Code" loading="lazy">
           <img class="w-14 sm:w-20 lg:w-28" src="/git.svg" alt="Git" loading="lazy">
           <img class="w-14 sm:w-20 lg:w-28" src="/jira.svg" alt="Jira" loading="lazy">
+          <img class="w-14 sm:w-20 lg:w-28" src="/docker.svg" alt="Docker" loading="lazy">
         </figure>
       </article>
 
@@ -60,6 +61,7 @@
           <img class="w-14 sm:w-20 lg:w-28" src="/spring.svg" alt="Spring" loading="lazy">
           <img class="w-14 sm:w-20 lg:w-28" src="/django.svg" alt="Django" loading="lazy">
           <img class="w-14 sm:w-20 lg:w-28" src="/vue.svg" alt="Vue.js" loading="lazy">
+          <img class="w-14 sm:w-20 lg:w-28" src="/tailwind.svg" alt="Tailwind CSS" loading="lazy">
         </figure>
       </article>
     </section>
